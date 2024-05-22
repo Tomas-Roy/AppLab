@@ -1,0 +1,316 @@
+/* 
+@media all and (max-width:1450px){
+   
+}
+
+ */
+
+
+
+
+
+
+@media all and (max-width:1200px){
+    .menu ul li a {
+        padding: 0px 1rem;
+    }
+    
+}
+
+
+
+
+
+
+
+@media all and (max-width:991px){
+    .section-padding {
+        padding: 5rem 0;
+    }
+    .container-child {
+        width: 95%;
+    }
+    .header-top {
+        padding-top: 0rem;
+    }
+    .menu ul li a {
+        padding: 0px .7rem;
+    }
+    .banner-heading h2 {
+        margin: 3rem 0;
+        font-size: 4rem;
+        line-height: 5rem;
+    }
+    .apps-features-left img {
+        width: 80%;
+        margin: auto;
+    }
+    .apps-features-areas {
+        padding: 0;
+    }
+    .apps-features {
+        flex-direction: column;
+    }
+    .apps-features-left {
+        flex-basis: 100%;
+    }
+    .apps-features-right {
+        flex-basis: 100%;
+        margin-left: 3rem;
+    }
+    .apps-features-right h2 {
+        max-width: 100%;
+        margin: 0 0 2rem 0;
+    }
+    .jackpot-up {
+         grid-gap: 5rem;
+    }
+    .jackpot-up h3 {
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+    .jackpot-bottom {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .our-apps-up h3 {
+        font-size: 3rem;
+        margin: 2rem auto;
+    }
+    .our-apps-bottom {
+        max-width: 90%;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .planing-main {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .planing-cointainer {
+        margin: auto;
+        width: 80%;
+    }
+    .planing-left h3 {
+        max-width: 100%;
+    }
+    .planing-left-img {
+        order: -1;
+    }
+    .planing-left-img img {
+        width: 80%;
+        margin: auto;
+    }
+    .header-btn.btn-style {
+        text-align: center;
+    }
+    .planing-btn {
+        text-align: center;
+    }
+    .order-up h2 {
+        margin: 0 auto;
+    }
+    .order-box {
+        margin: 0 1.5rem;
+    }
+    .box-up span {
+        font-size: 1.5rem;
+    }
+    .box-up h1 {
+        font-size: 5rem;
+    }
+    .client-main {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .client-area-container {
+        margin: auto;
+    }
+    .client-right {
+        margin: auto;
+    }
+    .client-left{
+        margin-bottom: 5rem;
+    }
+    .client-left, .client-right {
+        flex-basis: 100%;
+    }
+    .client-left img {
+       margin: auto;
+        width: 80%;
+    }
+    .questions-boxes {
+        margin: 4rem auto;
+    }
+    .questions-box h2 {
+        max-width: 450px;
+    }
+    .download-main {
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+
+
+@media all and (max-width:767px){
+    .menu .menu-icon {
+        display: block;
+    }
+    .menu ul{
+        display: none;
+    }
+    .banner-contents {
+        flex-direction: column;
+    }
+    .apps-features-areas {
+        padding: 0 0 2rem 0;
+    }
+    .jackpot-up {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .jackpot-up::after {
+        display: none;
+    }
+    .jackpot-bottom {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .jackpot-text p {
+        max-width: 80%;
+        margin: auto;
+    }
+    .jackpot-icon {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .jackpot-rows {
+        text-align: center;
+    }
+    .design-main {
+        flex-direction: column;
+    }
+    .design-row {
+        margin-bottom: 4rem;
+    }
+    .design-row h3 {
+        max-width: 45rem;
+    }
+    .our-apps-area {
+        padding-top: 0;
+    }
+    .our-apps-bottom {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .planing-left-bottom {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .planing-bottom-row {
+        text-align: center;
+    }
+    .planing-icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .order-up p {
+        max-width: 50rem;
+        margin: 0px auto 4rem auto;
+    }
+    .order-up h2 {
+        margin-bottom: 2rem;
+    }
+    .order-bottom {
+        flex-direction: column;
+    }
+    .order-box {
+        margin: 2rem 1.5rem;
+    }
+    .client-area-container {
+        width: 80%;
+    }
+}
+
+@media all and (max-width:576px){
+    .section-padding {
+        padding: 3rem 0;
+    }
+    .check-box h5 {
+        font-size: 1.6rem;
+    }
+    .banner-heading h2 {
+        font-size: 3rem;
+    }
+    .banner-heading {
+        margin-bottom: 3rem;
+    }
+    .banner-image {
+        justify-content: center;
+    }
+    .apps-features-areas {
+        padding-top: 0;
+    }
+    .designr-btn {
+        text-align: center;
+    }
+    .order-up {
+        margin-bottom: 3rem;
+    }
+    .order-up h2 {
+        font-size: 3.4rem;
+        max-width: 100%;
+        margin: 2rem 0;
+    }
+    .client-row h2 {
+        font-size: 3rem;
+        max-width: 100%;
+    }
+    .hidden {
+        padding: 2rem 2rem;
+    }
+    .questions-box h2 {
+        max-width: 85%;
+    }
+    .download-heading h2 {
+        font-size: 3.5rem;
+        max-width: 80%;
+        margin: auto;
+    }
+    .download-heading p {
+        margin: 2rem auto;
+        max-width: 80%;
+    }
+
+    .download-image {
+        justify-content: space-between;
+        flex-direction: column;
+        margin: 5rem auto;
+    }
+    .download-app {
+        margin-right: 5rem;
+        margin-bottom: 2rem;
+    }
+    .download-right {
+        margin-bottom: 0rem;
+    }
+    .footer-menu ul li a {
+        padding: 0 1.2rem;
+        font-size: 1.3rem;
+    }
+}
+
+
+
+
+
+
+
+@media all and (max-width:450px){
+    
+}

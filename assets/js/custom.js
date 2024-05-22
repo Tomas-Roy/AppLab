@@ -1,0 +1,30 @@
+$(document).ready(function(){
+    $(".tom").owlCarousel({
+        items:5,
+        loop:true,
+        autoplay:true,
+        autoplayTimeout:600,
+        autoplayHoverPause:true,
+        responsiveClass:true,
+        responsive:{
+            0:{
+                items:2,
+                nav:true
+            },
+            600:{
+                items:3,
+                nav:false
+            },
+            700:{
+                items:5,
+                nav:false
+            },
+            1000:{
+                items:5,
+                nav:true,
+                loop:true
+            }
+        }
+    });
+
+  });

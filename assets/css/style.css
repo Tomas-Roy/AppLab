@@ -1,0 +1,767 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  /****************************/
+   /******* Common CSS ******/
+/****************************/
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+h1,h2,h3,h4,h5,h6,ul,p{
+    margin: 0;
+}
+:root{
+    --color1:#616368;
+    --color2:#ffffff;
+    --color3:#242f51;
+    --color4:#2500f9;
+}
+img{
+    display: block;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container {
+    max-width: 1175px;
+    width: 90%;
+    margin: auto;
+}
+.container-child {
+    max-width: 1170px;
+    width: 90%;
+    margin: auto;
+}
+.section-padding{
+    padding: 7rem 0;
+}
+.btn-style a{
+    font-weight: 700;
+    padding: 1.2rem 4rem;
+    background: var(--color4);
+    color: var(--color2);
+    border-radius: 3rem;
+    transition: 1s;
+}
+.btn-style a:hover{
+    color: var(--color2);
+    background: var(--color1);
+}
+.owl-prev, .owl-next {
+	display: none;
+}
+
+
+  /****************************/
+ /******* 1.Header Area ******/
+/****************************/
+.header-top {
+    padding-top: 3rem;
+}
+.menu-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5rem 0;
+}
+a.menu-icon {
+    font-size: 2.5rem;
+    color: var(--color4);
+    display: none;
+}
+.menu, .menu ul {
+    display: flex;
+    align-items: center;
+}
+
+.menu ul li a {
+    padding: 0 2.4rem;
+    color: var(--color3);
+    font-weight: 600;
+    font-size: 1.5rem;
+    transition: 1s;
+}
+.menu ul li a:hover{
+    color: var(--color4);
+}
+.banner-contents{
+    display: flex;
+    align-items: center;
+}
+.banner-heading{
+    flex-basis: 50%;
+}
+.banner-heading h2 {
+    margin: 2rem 0;
+    font-size: 6rem;
+    line-height: 8rem;
+    font-weight: 600;
+    color: var(--color3);
+}
+.banner-heading p {
+    max-width: 450px;
+    color: var(--color1);
+    margin-bottom: 5rem;
+}
+.check-box {
+    background: #e2eaed;
+    width: 38rem;
+    border-radius: 3rem;
+    display: flex;
+    align-items: center;
+}
+.check-box h5 {
+    margin-left: 1rem;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+.banner-btn span {
+    margin-left: 3rem;
+}
+.banner-btn span a{
+    color: var(--color4);
+    font-weight: 500;
+}
+.banner-btn span a:hover{
+    color: var(--color3);
+}
+.banner-btn{
+    display: flex;
+}
+.banner-image{
+    display: flex;
+    justify-content: flex-end;
+    flex-basis: 50%;
+}
+.banner-image img {
+    height: 100%;
+    width: 65%;
+}
+.header-bottom{
+    background: url(../images/header-bg.png) no-repeat scroll 0 0 / cover;
+}
+
+
+  /****************************/
+ /******* 2.Slider Area ******/
+/****************************/
+.slider-areas{
+    padding-bottom: 0;
+}
+.slider-area{
+    text-align: center;
+}
+.slider-area p{
+    font-weight: 500;
+    color: var(--color3);
+}
+.slider-area-slider{
+    width: 90%;
+    margin: auto;
+}
+.tomas{
+    margin: 5rem 3rem;
+}
+.tomas img{
+    height: 7rem;
+    width: 14rem;
+}
+  /****************************/
+ /*** 3.Apps Features Area ***/
+/****************************/
+.apps-features-areas{
+    padding-bottom: 0rem;
+}
+.apps-features{
+    display: flex;
+}
+.apps-features-left img {
+    width: 100%;
+}
+.apps-features-left{
+    flex-basis: 47%;
+}
+.apps-features-right{
+    flex-basis: 53%;
+    margin-left: 3rem;
+}
+.apps-features-right h2 {
+    font-size: 3.6rem;
+    font-weight: 600;
+    max-width: 350px;
+    margin: 0 0 1rem 0;
+    color: var(--color3);
+    line-height: 5rem;
+}
+.apps-features-right h4 {
+    max-width: 500px;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: var(--color1);
+    margin-bottom: 7rem;
+}
+.apps-features-rows {
+    margin-bottom: 5rem;
+    display: flex;
+}
+.apps-features-icon {
+    padding-right: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.apps-features-text h3,.jackpot-text h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #f55767;
+}
+.text-two h3{
+    color: var(--color4);
+}
+.text-three h3{
+    color: #40975f;
+}
+.apps-features-text p,.jackpot-text p  {
+    color: var(--color1);
+    max-width: 300px;
+}
+
+  /****************************/
+ /****** 4.Jackpot Area ******/
+/****************************/
+.jackpot-main {
+    width: 90%;
+    margin: auto;
+}
+.jackpot-up {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10rem;
+    position: relative;
+    margin-bottom: 8rem;
+}
+.jackpot-up h3 {
+    font-size: 4rem;
+    font-weight: 600;
+}
+.jackpot-up p {
+    margin: auto 0;
+    color: var(--color1);
+    max-width: 470px;
+}
+.jackpot-up::after {
+	content: "";
+	height: 14.5rem;
+	width: .1rem;
+	top: 0;
+	left: 0;
+	background: var(--color1);
+	position: absolute;
+	right: 0px;
+	margin: auto;
+	bottom: 0;
+}
+.jackpot-bottom {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5rem;
+}
+.jackpot-icon {
+    margin-bottom: 3rem;
+}
+
+  /****************************/
+ /****** 5.Design Area ******/
+/****************************/
+.design-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.design-row {
+    flex-basis: 46%;
+}
+.design-row img {
+    height: 100%;
+    width: 100%;
+}
+.design-row h3 {
+    font-size: 3.6rem;
+    font-weight: 600;
+    max-width: 42rem;
+    margin-bottom: 3rem;
+    line-height: 5rem;
+    color: var(--color3);
+}
+.design-row p {
+    max-width: 47rem;
+    margin-bottom: 4rem;
+    color: var(--color1);
+}
+
+  /****************************/
+ /****** 6.Our Apps Area *****/
+/****************************/
+
+.our-apps-area{
+    border-top: .1rem solid #f4f4f4;
+}
+.our-apps-up{
+    text-align: center;
+    margin-bottom: 6rem;
+}
+.our-apps-up h3 {
+    font-size: 3.6rem;
+    font-weight: 600;
+    margin: 3rem auto;
+    max-width: 50rem;
+    color: var(--color3);
+}
+.our-apps-up p {
+    max-width: 66rem;
+    margin: auto;
+    color: var(--color1);
+}
+.our-apps-bottom {
+    display: grid;
+    grid-gap: 5rem;
+    margin: auto;
+    max-width: 90%;
+    grid-template-columns: repeat(3, 1fr);
+}
+.our-apps-rows {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.jackpot-text h3{
+    color: var(--color3);
+}
+
+  /****************************/
+ /****** 7.Planing Area *****/
+/****************************/
+.planing-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.planing-cointainer {
+    margin-right: 0;
+    width: 100%;
+    max-width: 1230px;
+}
+.planing-left-img img{
+    height: 100%;
+    width: 100%;
+}
+.planing-left h3 {
+    font-size: 3.6rem;
+    font-weight: 600;
+    max-width: 40rem;
+    color: var(--color3);
+    line-height: 5rem;
+    margin-bottom: 2rem;
+}
+.planing-left p {
+    max-width: 40rem;
+    color: var(--color1);
+    margin-bottom: 5rem;
+}
+.planing-left-bottom {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 3rem;
+    margin-bottom: 3rem;
+}
+.planing-text h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 2rem 0 0 0;
+    color: var(--color3);
+}
+.planing-text p {
+    margin-bottom: 3rem;
+    color: var(--color1);
+}
+
+  /****************************/
+ /********* 8.Order Area *****/
+/****************************/
+.order-main {
+    margin-bottom: 5rem;
+}
+.order-up {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.order-up h2 {
+    font-size: 3.6rem;
+    max-width: 62rem;
+    margin: 2rem auto;
+    color: var(--color3);
+    font-weight: 600;
+}
+.order-up p {
+    max-width: 65rem;
+    margin: 0px auto 8rem auto;
+}
+.order-btn {
+    border: 1px solid var(--color1);
+    padding: 1.4rem .4rem;
+    width: 318px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 3rem;
+    position: relative;
+}
+
+.btn-style1 a, .btn-style1-one a{
+    margin: 0 3rem;
+    color: rgb(204, 202, 202);
+    font-weight: 700;
+    opacity: 1;
+}
+.order-btn-hover a {
+   position: relative;
+}
+
+
+/* .order-btn-hover a:hover{
+    background-color: var(--color4);
+    transition: all .4s ease-out 0s;
+} */
+
+.btn-style1 a::after {
+	content: "";
+	height: 49px;
+	width: 150px;
+	left: -205px;
+	top: 0;
+	position: absolute;
+	background-color: #2500f9;
+	border-radius: 3rem;
+	opacity: 1;
+	transition: .5s;
+	z-index: -999;
+	bottom: 0;
+	margin: auto;
+}
+.btn-style1:hover ::after{
+    left: -44px;
+    visibility: visible;
+    opacity: 1;
+    background-color: var(--color1);
+}
+.order-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.order-box {
+    margin: 0 4rem;
+    text-align: center;
+    border-radius: 1.5rem;
+    box-shadow: 3.837px 54.866px 62px 0px rgba(144, 163, 177, 0.18);
+}
+.box-up {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-bottom: 1rem;
+}
+.box-up h1{
+    font-size: 6rem;
+    font-weight: 600;
+    color: var(--color3);
+}
+.box-up span{
+    font-size: 1.8rem;
+    color: var(--color1);
+}
+.order-box-up h3{
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--color3);
+}
+.order-box-up p{
+    font-size: 1.6rem;
+    color: var(--color1);
+}
+.order-box-up {
+    background: #f8fafb;
+    padding: 4rem 7rem;
+    border-radius: 1.5rem 1.5rem 0 0;
+}
+.order-box-bottom ul li {
+    margin: 3rem 0;
+}
+.order-box-bottom ul li a{
+    color: var(--color1);
+}
+.order-box-bottom ul{
+    margin-bottom: 6rem;
+}
+.order-box-bottom p{
+    margin-top: 3rem;
+    visibility: hidden;
+    transition: .1s;
+}
+
+.order-box:hover .order-box-bottom p {
+    visibility: visible;
+    margin: 5rem 0;
+    transition: .3s;
+}
+
+
+  /****************************/
+ /****** 9.Client Area *****/
+/****************************/
+.client-area{
+    border-top: 1px solid #f4f4f4;
+}
+.client-area-container {
+    margin-left: 0;
+    max-width: 100%;
+    width: 100%;
+}
+.client-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.client-left,.client-right {
+    flex-basis: 49%;
+}
+.client-right {
+    margin-left: 3rem;
+}
+.client-left img{
+    height: 100%;
+    width: 100%;
+}
+.client-row h2 {
+    font-size: 4rem;
+    max-width: 52rem;
+    font-weight: 600;
+    line-height: 5rem;
+    color: var(--color3);
+}
+.client-row p{
+    font-size: 1.6rem;
+    color: var(--color1);
+    margin: 2rem 0;
+    max-width: 50rem;
+}
+.client-row ul{
+    display: flex;
+}
+.client-row ul li {
+    margin-right: 1rem;
+}
+.client-row ul li a i{
+    font-size: 2rem;
+    color: #ffcc00;
+}
+.client-row h4 {
+    font-size: 2rem;
+    color: var(--color3);
+    margin: 2rem 0;
+}
+.client-row-bottom {
+    display: flex;
+    max-width: 50rem;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5rem;
+}
+.client-row-first {
+    display: flex;
+    align-items: center;
+}
+.client-row-name {
+    margin-left: 2rem;
+}
+.client-row-name h3{
+    color: var(--color3);
+    font-size: 1.6rem;
+}
+.client-row-name p{
+    color: var(--color1);
+    font-size: 1.8rem;
+}
+.client-arrow {
+    display: flex;
+}
+.client-right-arrow i {
+    font-size: 1.5rem;
+    padding: 1rem;
+    background: #f0f0f0;
+    color: var(--color3);
+    margin: 1rem;
+    border-radius: 50%;
+}
+
+
+  /****************************/
+ /****** 10.Questions Area *****/
+/****************************/
+
+.questions-heading{
+    text-align: center;
+}
+.questions-heading h2{
+    font-size: 4rem;
+    font-weight: 600;
+    color: var(--color3);
+}
+.questions-heading p {
+    font-size: 1.6rem;
+    color: var(--color1);
+    margin: 2rem auto;
+    max-width: 65rem;
+}
+.questions-boxes {
+    width: 90%;
+    margin: 5rem auto;
+}
+.questions-box {
+    padding: 6rem 4rem;
+    margin-bottom: 2rem;
+    background: #f5f7fa;
+}
+.questions-box h2 {
+    margin-bottom: 2rem;
+    color: var(--color3);
+    font-size: 2rem;
+    font-weight: 500;
+}
+.questions-box p{
+    font-size: 1.6rem;
+    color: var(--color1);
+}
+.hidden {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 4rem;
+}
+.hidden h2{
+    margin: 0;
+}
+.hidden i{
+    font-size: 2rem;
+    color: var(--color1);
+}
+
+
+  /****************************/
+ /***** 11.Download Area *****/
+/****************************/
+.download-area{
+    border-top: 1px solid #f4f4f4;
+}
+.download-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.download-width {
+    margin-right: 0;
+    max-width: 100%;
+    width: 95%;
+}
+.download-left, .download-right {
+    flex-basis: 50%;
+    margin-bottom: -4rem;
+}
+.download-heading h2{
+    font-size: 4.8rem;
+    font-weight: 600;
+    color: var(--color3);
+}
+.download-heading p{
+    color: var(--color1);
+    font-size: 1.6rem;
+    margin: 2rem 0;
+}
+
+.download-image{
+    display: flex;
+    align-items: center;
+    margin: 3rem 0 10rem 0;
+}
+.download-app {
+    margin-right: 5rem;
+}
+.download-right img{
+    height: 100%;
+    width: 100%;
+}
+
+  /****************************/
+ /****** 12.Footer Area ******/
+/****************************/
+
+.footer-area {
+    background-color: #09142e;
+    /* margin-top: -4.4rem; */
+}
+.footer-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5rem 0;
+}
+.footer-icon {
+    margin: 6rem 0;
+}
+.footer-menu {
+    margin-bottom: 5rem;
+}
+.footer-social-icon {
+    margin-bottom: 5rem;
+}
+.footer-menu ul, .footer-social-icon ul{
+    display: flex;
+}
+.footer-menu ul li a{
+    padding: 0 2.4rem;
+    color: var(--color2);
+    font-weight: 600;
+    font-size: 1.5rem;
+    transition: 1s;
+}
+.footer-social-icon ul li a i {
+    padding: 0px 1.4rem;
+    color: var(--color1);
+    font-size: 3rem;
+    transition: 1s;
+}
+.footer-menu ul li a:hover{
+    color: var(--color4);
+}
+.footer-social-icon ul li a i:hover{
+    color: var(--color2);
+}
+.footer-main p {
+    font-size: 1.4rem;
+    color:var(--color1);
+}
